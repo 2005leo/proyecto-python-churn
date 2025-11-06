@@ -1,0 +1,64 @@
+{
+  "logreg": {
+    "accuracy": 0.943,
+    "roc_auc": 0.6715,
+    "report": {
+      "0": {
+        "precision": 0.943,
+        "recall": 1.0,
+        "f1-score": 0.970663921770458,
+        "support": 943.0
+      },
+      "1": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 57.0
+      },
+      "accuracy": 0.943,
+      "macro avg": {
+        "precision": 0.4715,
+        "recall": 0.5,
+        "f1-score": 0.485331960885229,
+        "support": 1000.0
+      },
+      "weighted avg": {
+        "precision": 0.889249,
+        "recall": 0.943,
+        "f1-score": 0.915336078229542,
+        "support": 1000.0
+      }
+    }
+  },
+  "rf": {
+    "accuracy": 0.943,
+    "roc_auc": 0.5538,
+    "report": {
+      "0": {
+        "precision": 0.943,
+        "recall": 1.0,
+        "f1-score": 0.970663921770458,
+        "support": 943.0
+      },
+      "1": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 57.0
+      },
+      "accuracy": 0.943,
+      "macro avg": {
+        "precision": 0.4715,
+        "recall": 0.5,
+        "f1-score": 0.485331960885229,
+        "support": 1000.0
+      },
+      "weighted avg": {
+        "precision": 0.889249,
+        "recall": 0.943,
+        "f1-score": 0.915336078229542,
+        "support": 1000.0
+      }
+    }
+  }
+}
